@@ -1,18 +1,20 @@
-{
-  "hdr": "7E0",
-  "rax": "7E8",
-  "cmd": { "22": "DD01" },
-  "freq": 1.0,
-  "signals": [{
-    "id": "MONDEO_MK5_ODO",
-    "name": "Odometer",
-    "path": "General",
-    "fmt": {
-      "len": 24,
-      "bix": 24,
-      "mul": 1,
-      "unit": "kilometers",
-      "max": 16777215
-    }
+{ 
+  "commands": [{
+    "hdr": "7E0",
+    "rax": "7E8",
+    "cmd": { "22": "DD01" },
+    "freq": 1.0,
+    "signals": [{
+      "id": "MONDEO_MK5_ODO",
+      "name": "Odometer",
+      "path": "General",
+      "fmt": {
+        "len": 24,
+        "bix": 24,
+        "mul": 1,
+        "unit": "kilometers",
+        "max": 16777215
+      }
+    }]
   }]
 }
