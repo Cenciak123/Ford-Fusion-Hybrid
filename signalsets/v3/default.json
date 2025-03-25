@@ -6,7 +6,7 @@
     "freq": 1.0,
     "signals": [{
       "id": "ODO",
-      "name": "Odometer",
+      "name": "Odometer_MK5",
       "path": "Trips",
       "fmt": {
         "len": 24,
