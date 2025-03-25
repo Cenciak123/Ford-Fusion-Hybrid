@@ -5,7 +5,7 @@
     "cmd": { "22": "DD01" },
     "freq": 1.0,
     "signals": [{
-      "id": "ODO",
+      "id": "ODO2",
       "name": "Odometer_MK5",
       "path": "Trips",
       "fmt": {
