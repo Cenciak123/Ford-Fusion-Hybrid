@@ -5,16 +5,15 @@
     "cmd": { "22": "DD01" },
     "freq": 1.0,
     "signals": [{
-      "id": "MONDEO_MK5_ODO",
+      "id": "ODO",
       "name": "Odometer",
-      "path": "General",
+      "path": "Trips",
       "fmt": {
         "len": 24,
-        "bix": 24,
+        "bix": 0,
         "mul": 1,
         "unit": "kilometers",
-        "max": 16777215,
-        "ofs": 0
+        "max": 16777215
       }
     }]
   }]
