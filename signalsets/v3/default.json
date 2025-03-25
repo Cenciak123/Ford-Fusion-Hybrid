@@ -1,5 +1,4 @@
-{ 
-  "commands": [{
+{
   "hdr": "7E0",
   "rax": "7E8",
   "cmd": { "22": "DD01" },
@@ -12,8 +11,8 @@
       "len": 24,
       "bix": 24,
       "mul": 1,
-      "unit": "kilometers"
+      "unit": "kilometers",
+      "max": 16777215
     }
   }]
-}]
 }
