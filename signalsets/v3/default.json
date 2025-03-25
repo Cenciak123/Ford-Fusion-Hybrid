@@ -7,7 +7,7 @@
     "signals": [{
       "id": "MONDEO_MK5_ODO",
       "name": "Odometer",
-      "path": "General",
+      "path": "Trips",
       "fmt": {
         "len": 24,
         "bix": 24,
