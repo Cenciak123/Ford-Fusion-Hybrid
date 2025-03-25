@@ -9,7 +9,7 @@
         {
           "id": "MONDEO_MK5_ODO",
           "name": "Odometer",
-          "path": "General",
+          "path": "Trips",
           "suggestedMetric": "odometer",
           "fmt": {
             "len": 24,
