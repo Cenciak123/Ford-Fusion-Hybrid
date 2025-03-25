@@ -7,13 +7,14 @@
     "signals": [{
       "id": "MONDEO_MK5_ODO",
       "name": "Odometer",
-      "path": "Trips",
+      "path": "General",
       "fmt": {
         "len": 24,
         "bix": 24,
         "mul": 1,
         "unit": "kilometers",
-        "max": 16777215
+        "max": 16777215,
+        "ofs": 0
       }
     }]
   }]
