@@ -20,6 +20,49 @@
           }
         }
       ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "cmd": { "22": "032B" },
+      "freq": 1.0,
+      "signals": [
+        {
+          "id": "MONDEO_MK5_PEDAL",
+          "name": "Pedals",
+          "path": "Control",
+          "suggestedMetric": "throttle",
+          "fmt": {
+            "len": 1,
+            "bix": 0,
+            "mul": 100,
+            "div": 256,
+            "clamp": [0, 100],
+            "unit": "percent"
+          }
+        }
+      ]
+    },
+    {
+      "hdr": "7E0",
+      "rax": "7E8",
+      "cmd": { "01": "01" },
+      "freq": 10.0,
+      "signals": [
+        {
+          "id": "MONDEO_MK5_DTC",
+          "name": "DTC Count",
+          "path": "DTCs",
+          "suggestedMetric": "dtc_count",
+          "fmt": {
+            "bix": 1,
+            "len": 1,
+            "signed": false,
+            "clamp": [0, 127],
+            "unit": "scalar"
+          }
+        }
+      ]
     }
   ]
 }
