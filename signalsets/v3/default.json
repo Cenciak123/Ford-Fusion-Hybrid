@@ -29,8 +29,8 @@
       "signals": [
         {
           "id": "MONDEO_MK5_PEDAL",
-          "name": "Pedals",
-          "path": "Control",
+          "name": "Accelerator Pedal",
+          "path": "Pedals",
           "suggestedMetric": "throttle",
           "fmt": {
             "len": 1,
@@ -38,7 +38,8 @@
             "mul": 100,
             "div": 256,
             "clamp": [0, 100],
-            "unit": "percent"
+            "unit": "percent",
+            "max": 100
           }
         }
       ]
@@ -52,14 +53,15 @@
         {
           "id": "MONDEO_MK5_DTC",
           "name": "DTC Count",
-          "path": "DTCs",
+          "path": "Diagnostics",
           "suggestedMetric": "dtc_count",
           "fmt": {
             "bix": 1,
             "len": 1,
             "signed": false,
             "clamp": [0, 127],
-            "unit": "scalar"
+            "unit": "scalar",
+            "max": 127
           }
         }
       ]
