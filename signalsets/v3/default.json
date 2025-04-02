@@ -51,7 +51,7 @@
       "freq": 10.0,
       "signals": [
         {
-          "id": "DTC_CNT",
+          "id": "DTC_CNT_MK5",
           "name": "Number of DTCs",
           "path": "DTCs",
           "suggestedMetric": "dtc_count",
