@@ -33,10 +33,11 @@
           "path": "Control",
           "suggestedMetric": "throttle",
           "fmt": {
-            "len": 1,
+            "len": 8,
             "bix": 0,
             "mul": 100,
             "div": 256,
+            "signed": false,
             "clamp": [0, 100],
             "unit": "percent",
             "max": 100
