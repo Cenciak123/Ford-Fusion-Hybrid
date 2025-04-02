@@ -34,7 +34,7 @@
           "suggestedMetric": "throttle",
           "fmt": {
             "len": 1,
-            "bix": 3,
+            "bix": 0,
             "mul": 100,
             "div": 256,
             "clamp": [0, 100],
@@ -56,7 +56,7 @@
           "path": "DTCs",
           "suggestedMetric": "dtc_count",
           "fmt": {
-            "bix": 1,
+            "bix": 0,
             "len": 1,
             "signed": false,
             "clamp": [0, 127],
