@@ -51,8 +51,8 @@
       "freq": 10.0,
       "signals": [
         {
-          "id": "MONDEO_MK5_DTC",
-          "name": "DTC_CNT",
+          "id": "DTC_CNT",
+          "name": "Number of DTCs",
           "path": "DTCs",
           "suggestedMetric": "dtc_count",
           "fmt": {
