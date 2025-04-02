@@ -34,7 +34,7 @@
           "suggestedMetric": "throttle",
           "fmt": {
             "len": 1,
-            "bix": 5,
+            "bix": 3,
             "mul": 100,
             "div": 256,
             "clamp": [0, 100],
